@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:zq="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="sincere.com.myviewpagerindicator.MainActivity">
+    <sincere.com.myviewpagerindicator.view.MyViewPagerIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        zq:visible_tab_count="4"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="horizontal">
+    </sincere.com.myviewpagerindicator.view.MyViewPagerIndicator>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+</LinearLayout>
